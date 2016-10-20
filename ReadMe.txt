@@ -9,11 +9,26 @@ Adel Bibi's website: www.adelbibi.com
 Email:
 
    adel.bibi [AT] kaust.edu.sa                 bibiadel93 [AT] gmail.com
-Bernard Ghanem's website: http://www.bernardghanem.com/
-
-Email:
-
+   matthias.mueller.2 [AT] kaust.edu.sa
    Bernard.Ghanem [AT] kaust.edu.sa 
+
+Website:
+   Adel Bibi: www.adelbibi.com
+   Bernard Ghanem: http://www.bernardghanem.com/
+   IVUL: https://ivul.kaust.edu.sa/Pages/Home.aspx
+
+
+
+Please cite:
+
+@inproceedings{bibi2016target,
+  title={Target response adaptation for correlation filter tracking},
+  author={Bibi, Adel and Mueller, Matthias and Ghanem, Bernard},
+  booktitle={European Conference on Computer Vision},
+  pages={419--433},
+  year={2016},
+  organization={Springer}
+}
 
 **************************************************
 This is a MATLAB implementation on the adaptive target for correlation filters.
@@ -64,8 +79,8 @@ It's the same exact code with the same parameters but has been changed to the st
 
 Referrences:
 [1] A Scale Adaptive Kernel Correlation Filter Tracker with Feature Integration. European Conference on Computer Vision Workshops 2014.
-[2] Henriques, João F., et al. "High-speed tracking with kernelized correlation filters." Pattern Analysis and Machine Intelligence, IEEE Transactions on 37.3 (2015): 583-596.
-[3] Henriques, Joao F., et al. "Exploiting the circulant structure of tracking-by-detection with kernels." Computer Vision–ECCV 2012. Springer Berlin Heidelberg, 2012. 702-715.
+[2] Henriques, JoÃ£o F., et al. "High-speed tracking with kernelized correlation filters." Pattern Analysis and Machine Intelligence, IEEE Transactions on 37.3 (2015): 583-596.
+[3] Henriques, Joao F., et al. "Exploiting the circulant structure of tracking-by-detection with kernels." Computer Visionâ€“ECCV 2012. Springer Berlin Heidelberg, 2012. 702-715.
 [4] Wu, Yi, Jongwoo Lim, and Ming-Hsuan Yang. "Online object tracking: A benchmark." Proceedings of the IEEE conference on computer vision and pattern recognition. 2013.
 A complete list of references can be found in the paper, which can be found here
 https://ivul.kaust.edu.sa/Pages/Pub-Adaptive-Kernelized-Correlation-Filters.aspx
