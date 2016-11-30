@@ -43,8 +43,8 @@ above with a reference.
 **************************************************
 
 
-The code is also completey integratable with the OTB100 and OTB50 evaulation benchmarks.
-To do so:
+The code is integratable with the OTB100 and OTB50 evaulation benchmarks.
+To run the code over the complete benchmark:
 
 1- Move the complete traker directory to the "Trackers" directory in the OTB evulation code.
 Locate the function "configTrackers.m" in the OTB100 evaulation code. To install the OTB100 benchmark:
