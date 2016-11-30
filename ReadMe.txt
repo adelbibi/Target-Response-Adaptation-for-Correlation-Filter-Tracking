@@ -1,6 +1,6 @@
 "Target Response Adaptation for Correlation Filter Tracking" ECCV2016
 
-Authors: Adel Bibi, Matthias Mueller and Bernard Ghanem.
+Authors: Adel Bibi, Matthias Mueller, and Bernard Ghanem.
 
 Visit our group's website: https://ivul.kaust.edu.sa/Pages/Home.aspx
 
@@ -39,41 +39,21 @@ solves the following objective. ||Ax - b||_2^2 + \lambda ||x||_2^2.
 
 It is free for research use. If you find it useful, please acknowledge the paper
 above with a reference.
+
 **************************************************
-
-
-To run over 1 single video:
-
-1- Open ('run_tracker.m').
-2- Change line 49 video = 'choose'.
-3- Dump any video of OTB100/OTB50 into the the directory (videos).
-4- Run the tracker.
-
-The annotation files and the attributes for all the videos of OTB100 are avilable in the directory (anno).
-
-
-To run over the complete dataset:
-
-1- Open ('run_tracker.m').
-2- Change line line 49 video = 'all'.
-3- Dump all the OTB100 or OTB50 videos into the the directory (videos).
-4- Run the tracker.
-5- The detailed results will be stored in (results) directory. (Make sure to create a directory named results in the current path)
 
 
 The code is also completey integratable with the OTB100 and OTB50 evaulation benchmarks.
 To do so:
 
-1- Move the complete traker directory to the (Trackers directory in the OTB evulation code).
-The function is called (configTrackers.m) in the OTB evaulation code. It can be found here:
+1- Move the complete traker directory to the "Trackers" directory in the OTB evulation code.
+Locate the function "configTrackers.m" in the OTB100 evaulation code. To install the OTB100 benchmark:
 [1] http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html
 [2] https://sites.google.com/site/trackerbenchmark/benchmarks/v10
 
 2- Add the following line to the list of trackers to be evualted over:
 struct('name','SAMF_AT','namePaper','SAMF_AT')
-Note: The code that will be run through the evaulation through (run_SAMF_AT.m).
-It's the same exact code with the same parameters but has been changed to the standard OTB format.
-
+Note: The code that will be run through the evaulation by running the function "run_SAMF_AT.m".
 
 **************************************************
 
